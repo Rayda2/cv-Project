@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #111;
   color: #eee;
   scroll-behavior: smooth;
@@ -22,9 +23,14 @@ body {
 }
 
 .logo {
-  color: #00bcd4;
+  color: #efcb70;
   font-size: 24px;
   margin: 0;
+}
+
+.logo i {
+  margin-right: 10px;
+  color: #efcb70;
 }
 
 nav ul {
@@ -42,7 +48,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #00bcd4;
+  color: #efcb70;
 }
 
 .container {
@@ -76,7 +82,7 @@ nav a:hover {
 }
 
 .info-card h2 span {
-  color: #00bcd4;
+  color: #efcb70;
 }
 
 .info-card .role {
@@ -92,9 +98,9 @@ nav a:hover {
 }
 
 .avatar {
-  width: 300px;
-  border-radius: 50%;
-  border: 3px solid #00bcd4;
+  width: 200px;
+  border-radius: 3px;
+  
 }
 
 .tech {
@@ -103,11 +109,11 @@ nav a:hover {
 }
 
 .tech h2 {
-  color: #00bcd4;
+  color: #efcb70;
 }
 
 .tech .icons img {
-  width: 50px;
+  width: 65px;
   margin: 10px;
  
 }
@@ -115,7 +121,7 @@ nav a:hover {
 .projects h2,
 .contact h2,
 .block h2 {
-  color: #00bcd4;
+  color: #efcb70;
   margin-bottom: 20px;
 }
 
@@ -125,6 +131,12 @@ nav a:hover {
   gap: 20px;
 }
 
+.project-img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
 .card {
   background-color: #1c1c1c;
   padding: 20px;
@@ -153,7 +165,7 @@ nav a:hover {
 }
 
 .contact a {
-  color: #00bcd4;
+  color: #efcb70;
   text-decoration: none;
 }
 
@@ -162,6 +174,45 @@ footer {
   margin-top: 40px;
   color: #666;
   font-size: 14px;
+}
+
+
+body.light {
+  background-color: #ffffff;
+  color: #111111;
+}
+
+body.light .main-header {
+  background-color: #f5f5f5;
+}
+
+body.light .intro,
+body.light .card,
+body.light .block,
+body.light .contact {
+  background-color: #f4f4f4;
+  color: #111;
+}
+
+body.light nav a {
+  color: #333;
+}
+
+body.light .card {
+  border: 1px solid #ddd;
+}
+
+body.light .card h3{
+  color: #111;
+}
+
+
+.mode-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #513d45;
 }
 
 
